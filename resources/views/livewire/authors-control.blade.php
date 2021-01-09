@@ -4,8 +4,8 @@
     <div class="card-header d-flex">
 
         <select class="form-control w-50" wire:model="sort">
-            <option value="Asc">sort with surname a-z</option>
-            <option value="Desc">sort with surname z-a</option>
+            <option value="asc">sort with surname a-z</option>
+            <option value="desc">sort with surname z-a</option>
         </select>
 
         <button class="btn btn-primary ml-auto"
